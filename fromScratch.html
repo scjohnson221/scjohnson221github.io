@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running</title>
+    <link href="css/myStyles.css" rel="stylesheet"/>
+        <style>
+        body {
+            text-align: center;
+        }
+
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #video {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h1>Running Adventures</h1>
+    </div>
+        
+    <!-- Navigation Links (the clickable anchors) -->
+    <nav>
+        <a href="#video">Watch Video</a>
+    </nav>
+
+    <br>
+    <img src="assets/img/running pic.jpg" alt="Trail runner" width="500">
+
+    <div class="second">
+    <h2>Best places to run in Utah</h2>
+    </div>
+
+    <ul>
+        <!-- Anchor targets using id="" -->
+         <div class="third">
+        <li id="deer-creek">Deer Creek Reservoir</li>
+        </div>
+        <ol>
+            <div class="sixth">
+            <li>Flat land</li>
+            <li>Beautiful scenery</li>
+            </div>
+        </ol>
+        <br>
+        <div class="fourth">
+        <li id="alpine-loop">Alpine Loop</li>
+        </div>
+        <ol>
+            <div class="seventh">
+            <li>Hills</li>
+            <li>Foresty with lots of trees</li>
+            </div>
+        </ol>
+        <br>
+        <div class="fifth">
+        <li id="provo-canyon">Provo Canyon</li>
+        </div>
+        <ol>
+            <div class="eighth">
+            <li>Shaded</li>
+            <li>Bridges and paved roads</li>
+            </div>
+        </ol>
+    </ul>
+<br><br>
+    <!-- Anchor target on the video -->
+    <div id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/n4d8qMF5XN0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+    </div>
+<br><br><br>
+    <ul>
+        <div class="tenth">
+        <h2>Graph</h2>
+        </div>
+    </ul>
+<div style="display: flex; justify-content: center; padding: 20px;">
+    <div style="width: 500px; height: 321px; overflow: hidden;">
+        <div style="transform: scale(0.3125); transform-origin: top left; width: 1600px; height: 1027px;">
+            <div class='tableauPlaceholder' id='viz1776141116504' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Masters' src='https://public.tableau.com/static/images/Th/TheMastersChampions/Masters/1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='TheMastersChampions&#47;Masters' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/Th/TheMastersChampions/Masters/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1776141116504');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '1600px';   /* Must match the original viz size */
+    vizElement.style.height = '1027px';  /* Must match the original viz size */
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<!-- In your <head> or stylesheet -->
+<style>
+    .game-btn {
+        display: inline-block;
+        background-color: #e94560;
+        color: white;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .game-btn:hover {
+        background-color: #c23152;
+    }
+</style>
+
+<!-- In your <body> where you want the button -->
+<a href="tictactoe.html" class="game-btn">🎮 Play Tic Tac Toe</a>
+
+</body>
+</html>

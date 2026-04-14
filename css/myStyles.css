@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(227, 217, 203);
+}
+
+.first{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: block;
+    color: rgba(68, 14, 14, 0.335);
+}
+
+.second{
+    color: rgba(55, 13, 13, 0.586);
+}
+
+.third{
+    font-weight: bold;
+    color: rgba(68, 14, 14, 0.335);
+}
+
+.fourth{
+    font-weight: bold;
+    color: rgba(68, 14, 14, 0.335);
+}
+
+.fifth{
+    font-weight: bold;
+    color: rgba(68, 14, 14, 0.335);
+}
+
+.sixth{
+    color: rgba(55, 13, 13, 0.586);
+}
+
+.seventh{
+    color: rgba(55, 13, 13, 0.586);
+}
+
+.eighth{
+    color: rgba(55, 13, 13, 0.586);
+}
+
+.tenth{
+    color: rgba(55, 13, 13, 0.586);
+}
